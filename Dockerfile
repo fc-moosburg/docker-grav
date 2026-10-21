@@ -13,7 +13,7 @@
 #   docker build --build-arg PHP_EXTRA_EXTENSIONS="xdebug redis" -t grav:dev .
 # =============================================================================
 
-ARG PHP_VERSION=8.3
+ARG PHP_VERSION=8.5
 FROM php:${PHP_VERSION}-apache-bookworm
 
 LABEL maintainer="Andy Miller <rhuk@getgrav.org> (@rhukster)"
